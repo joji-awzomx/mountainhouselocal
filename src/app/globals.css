@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .magazine-heading {
+    @apply font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  .tag-pill {
+    @apply inline-block px-3 py-1 text-xs font-semibold rounded-full;
+  }
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-semibold rounded-lg hover:bg-primary-50 transition-colors;
+  }
+  .tier-badge-free {
+    @apply tag-pill bg-gray-100 text-gray-600;
+  }
+  .tier-badge-bronze {
+    @apply tag-pill bg-amber-100 text-amber-700;
+  }
+  .tier-badge-silver {
+    @apply tag-pill bg-gray-200 text-gray-700;
+  }
+  .tier-badge-gold {
+    @apply tag-pill bg-yellow-100 text-yellow-700;
+  }
+  .tier-badge-platinum {
+    @apply tag-pill bg-purple-100 text-purple-700;
+  }
+}

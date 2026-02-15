@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E07020"/>
+      <stop offset="100%" style="stop-color:#C5961B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <text x="600" y="330" text-anchor="middle" font-size="100" fill="white" opacity="0.9">&#x1F35B;</text>
+  <text x="600" y="460" text-anchor="middle" font-family="Georgia, serif" font-size="48" fill="white" font-weight="bold">Aappakadai Indian Chettinad</text>
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.8">Mountain House, CA</text>
+</svg>
